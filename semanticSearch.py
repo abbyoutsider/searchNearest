@@ -2,11 +2,11 @@ import numpy as np
 import streamlit as st
 
 name_to_image = {
-            "flower": "../images/flower.jpg",
-            "car": "../images/car.jpg",
-            "tree": "../images/tree.jpg",
-            "mountain": "../images/mountain.jpg",
-            "building":"../images/building.jpg"
+            "flower": "images/flower.jpg",
+            "car": "images/car.jpg",
+            "tree": "images/tree.jpg",
+            "mountain": "images/mountain.jpg",
+            "building":"images/building.jpg"
         }
 words = name_to_image.keys()
 
